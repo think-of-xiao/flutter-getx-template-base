@@ -20,15 +20,16 @@ samples, guidance on mobile development, and a full API reference.
 这是一个基于Flutter的项目模板，使用getx框架。
 
 功能包括：
-- 本地存储：SharedPreferences 全局工具类
-- 全局明暗主题：一键切换 + 持久化
-- 国际化多语言：中 / 英一键切换
-- Token 自动拦截 + 刷新：401 自动刷新，过期自动登出
-- 统一错误处理：全局弹窗、网络异常、业务异常统一管理
-- GetX 标准架构：路由、Binding、Controller、View
-- Dio 网络封装：全局日志、Header、重试机制
+- ✅ 本地存储：SharedPreferences 全局工具类
+- ✅ 全局明暗主题：一键切换 + 持久化
+- ✅ 国际化多语言：中 / 英一键切换
+- ✅ Token 自动拦截 + 刷新：401 自动刷新，过期自动登出
+- ✅ 统一错误处理：全局弹窗、网络异常、业务异常统一管理
+- ✅ GetX 标准架构：路由、Binding、Controller、View
+- ✅ Dio 网络封装：全局日志、Header、重试机制
 
 项目结构如下：
+```
   project/
   ├── assets/
   │   └── images/           # 主图片目录（在主图片目录下存放的是1.0x倍图）
@@ -80,3 +81,4 @@ samples, guidance on mobile development, and a full API reference.
       │   ├── app_pages.dart      ← 路由页面配置
       │   └── app_routes.dart     ← 路由path配置
       └── main.dart             ← 应用入口
+```
